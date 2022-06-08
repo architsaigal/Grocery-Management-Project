@@ -19,7 +19,7 @@ void main()
 
 int add_item()
 {
-    FILE* fp = fopen("grocerylist.csv", "w");
+    FILE* fp = fopen("grocerylist.csv", "a+");
     int itemno, qty, price;
     char itemname[50];
     if (!fp)
