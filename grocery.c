@@ -10,7 +10,9 @@ void main()
     {
         printf("Enter your username:");
         scanf("%s",&id);
-        if (st)
+        if (strcmp((id,"admin")==1)
+            {
+                printf("HI ARCHIT");
 
     }
 }
